@@ -64,6 +64,9 @@
 .header_main-illustration{
   margin-bottom: 0;
   margin-right: 0;
-  length: 765px;;
-  width: 608px;;
+  length: 765px;
+  width: 608px;
+  display: inline-block;
+	padding: 10px 20px;
+	border: 1px solid green;
 }
