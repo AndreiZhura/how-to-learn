@@ -29,3 +29,41 @@
   margin-right: 0;
   margin-top: 80px;
 }
+/* Начало моей работы*/
+/* блок header*/
+
+.Page{
+  font-family: 'Helvetica Neue','Arial', 'sans-serif';
+}
+
+
+.logo_place_header{
+  margin-left: 24px;
+  margin-bottom:  30px;
+  length: 30px;
+  width: 64px;
+  position: absolute;
+
+}
+
+
+.header_title{
+  margin-left: 64px;
+  width: 730px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.header_link{
+  width:388px;
+  margin-left: 64px;
+  margin-top:  30px;
+  position: absolute;
+}
+.header_main-illustration{
+  margin-bottom: 0;
+  margin-right: 0;
+  length: 765px;;
+  width: 608px;;
+}
