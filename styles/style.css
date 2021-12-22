@@ -40,7 +40,7 @@
 .logo_place_header{
   margin-left: 24px;
   margin-bottom:  30px;
-  length: 30px;
+  height: 30px;
   width: 64px;
   position: absolute;
 
@@ -64,9 +64,7 @@
 .header_main-illustration{
   margin-bottom: 0;
   margin-right: 0;
-  length: 765px;
+  height: 765px;
   width: 608px;
-  display: inline-block;
-	padding: 10px 20px;
-	border: 1px solid green;
+  
 }
