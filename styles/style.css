@@ -10,9 +10,13 @@
 }
 
 .header {
+  display: flex;
+ flex-flow: wrap-reverse;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color:#f2f2f2;
+  overflow: scroll
   /* выше установили ограничения для секции */
 }
 
@@ -38,21 +42,29 @@
 
 
 .logo_place_header{
-  margin-left: 24px;
+ margin-left: 24px;
   margin-bottom:  30px;
   height: 30px;
   width: 64px;
   position: absolute;
+ 
+  top:30px;
+  left: 64px; 
 
 }
 
 
 .header_title{
+  position:absolute;
+  font-weight: 600;
   margin-left: 64px;
   width: 730px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  bottom: 50%;
+  font-weight: 102px;
+  line-height: 96px;
+
+
+ 
 
 }
 .header_link{
@@ -62,9 +74,14 @@
   position: absolute;
 }
 .header_main-illustration{
-  margin-bottom: 0;
-  margin-right: 0;
+  
+  position:absolute;
+  top:0%;
+  bottom: 15%;
+  left: 60%;
+  right: 10%; ;
+  
   height: 765px;
   width: 608px;
-  
+
 }
