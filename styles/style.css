@@ -76,9 +76,9 @@
       font-style: normal;
 
   }
-  .header_link{
+  /*.header_link{
    
-  }
+  }*/
   .header_main-illustration{
     position: absolute;
     display: flex;
@@ -88,5 +88,11 @@
     padding-left: 835px;
   }
   .header__square-pic{
-    
+      display: flex;
+      position: absolute;
+      justify-content: flex-end;
+    width: 568px;
+    height: 568px;
+    background-color: darkblue;
+    margin-top: 64px;
   }
