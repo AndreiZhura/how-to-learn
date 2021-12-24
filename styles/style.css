@@ -8,15 +8,13 @@
     /* выше для экранов больше 1600px отцентрировали весь контент */
     font-family: 'Helvetica Neue', Arial, sans-serif;
   }
-  
+  /*----------------------------header --------------------------------------- */
   .header {
-   height: 100vh;
-   min-height: 32px;
-   max-height: 756px;
-   background-size: cover; 
-   background-color:#f2f2f2 ;
-   border-width: 1px;
-  border-style: solid;
+  height: 100vh;
+  min-height: 32px;
+  max-height: 756px;
+  background-size: cover;
+  background-color:#f2f2f2 ;
   border-color: Red;
 
     /* выше установили ограничения для секции */
@@ -44,8 +42,7 @@
   
   
   .header_logo_place_header{
-  position: absolute;  
-   display: flex;
+   position: absolute;  
    padding-top: 30px;
    padding-left: 64px;
    
@@ -60,20 +57,18 @@
     width: 730px;
     height: 96px;
     font-size: 102px;
-    
-    
-    
   }
   .header_subtitle{
-
-      position: relative;
-      left: 64px; 
-      top: 650px;
+    position: relative;
+    left: 64px; 
+    top: 650px;
+   
+    width: 388px;
+    height: 25px;
+    font-size: 18px;
+    font-style: normal;
+    
      
-      width: 388px;
-      height: 25px;
-      font-size: 18px;
-      font-style: normal;
 
   }
   /*.header_link{
@@ -84,15 +79,127 @@
     display: flex;
     width: 765px;
     height: 608px;
-    padding-top: 90px;
+    padding-top: 105px;
     padding-left: 835px;
+    z-index: 1;
   }
   .header__square-pic{
-      display: flex;
+      
       position: absolute;
       justify-content: flex-end;
-    width: 568px;
-    height: 568px;
-    background-color: darkblue;
-    margin-top: 64px;
+      width: 568px;
+      height: 568px;
+      background-color: #2f80ed;
+      margin-top: 64px;
+      right: 125px;
   }
+ /*----------------------------header --------------------------------------- */
+ /*----------------------------description --------------------------------------- */
+ .description{
+    display: flex;
+    margin: 100px auto;
+    min-width: 784px;
+    border:1px solid red;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    
+
+    
+ }
+ .two-columns{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     width: 80%;
+     border:1px solid red;
+     
+     
+ }
+ /* Главные проблемы в обучении*/
+ .two-columns_brief{
+  width: 175px;
+  color: #2f80ed;
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0px;
+  text-align: right;
+}
+
+.two-columns_main-text{
+  width: 80%;
+    border:1px solid red;
+    
+
+}
+.two-columns_paragraph{
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin-top: left;
+  margin-bottom: 30px;
+  width: 80%;
+  margin-right: 0px;
+    border:1px solid red;  
+ 
+}
+.two-columns-paragraph_span_accent
+{
+  border:1px solid red;
+  
+}
+ /*----------------------------description --------------------------------------- */
+.digits{
+  display:flex;
+  border:1px solid red;
+}
+
+
+.section-title{
+ 
+  border:1px solid red;
+}
+
+
+.section-subtitle{
+  
+}
+
+
+.table{
+
+  border:1px solid red;
+}
+
+
+.table__cell{
+
+  border:1px solid red;
+ 
+}
+
+ /*----------------------------description --------------------------------------- */
+ /*----------------------------feynman --------------------------------------- */
+ .feynman{
+  border:1px solid red;
+  background-color: #f2f2f2;
+ }
+.feynman_title{
+  
+  width: 648px;
+  padding-top: 100px;
+  line-height:1.15;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+}
+.feynman_subtitle{
+
+}
+ /*----------------------------feynman --------------------------------------- */
+  /*----------------------------kaufman --------------------------------------- */
+ 
+ /*----------------------------kaufman --------------------------------------- */
+ /*----------------------------footer --------------------------------------- */
+ 
+ /*----------------------------footer --------------------------------------- */
