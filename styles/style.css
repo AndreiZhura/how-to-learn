@@ -84,67 +84,63 @@
     z-index: 1;
   }
   .header__square-pic{
-      
+    display: flex;
       position: absolute;
       justify-content: flex-end;
       width: 568px;
       height: 568px;
       background-color: #2f80ed;
-      margin-top: 64px;
+      margin-top: 90px;
       right: 125px;
   }
  /*----------------------------header --------------------------------------- */
  /*----------------------------description --------------------------------------- */
- .description{
-    display: flex;
-    margin: 100px auto;
-    min-width: 784px;
-    border:1px solid red;
-    margin-top: 100px;
-    margin-bottom: 100px;
+ 
 
-    
+ .content{
 
+height: 100vh;
     
  }
- .two-columns{
-     display: flex;
-     justify-content: space-between;
-     flex-wrap: wrap;
-     width: 80%;
-     border:1px solid red;
-     
+ .description{
+border:1px solid red;
+display:flex;
+margin-top: 100px;
+margin-bottom: 100px;
+
      
  }
  /* Главные проблемы в обучении*/
- .two-columns_brief{
-  width: 175px;
-  color: #2f80ed;
-  font-size: 18px;
+ .two-columns{
+   display: flex;
+  justify-content: space-between;
+  border:1px solid red;
+}
+
+.two-column_brief{
+  display: flex;
   line-height: 1.2;
-  margin: 0px;
-  text-align: right;
-}
-
-.two-columns_main-text{
-  width: 80%;
-    border:1px solid red;
-    
-
-}
-.two-columns_paragraph{
-  font-size: 24px;
-  line-height: 34px;
+  font-size: 18px;
   font-weight: normal;
-  margin-top: left;
-  margin-bottom: 30px;
-  width: 80%;
-  margin-right: 0px;
-    border:1px solid red;  
- 
+  color: #2f80ed;
+  border:1px solid red;
+  
 }
-.two-columns-paragraph_span_accent
+.two-columns_main-text{
+  border:1px solid red;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.two-column_paragraph{
+
+  border:1px solid red;
+}
+.two-column_span-accent
 {
+  line-height: 34px;
+font-size: 24px;
+font-weight: bold;
   border:1px solid red;
   
 }
@@ -157,17 +153,25 @@
 
 .section-title{
  
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
   border:1px solid red;
 }
 
 
 .section-subtitle{
-  
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  border:1px solid red;
 }
 
 
 .table{
-
+ line-height: 1.15;
+ font-size: 24px;
+ font-weight: bold;
   border:1px solid red;
 }
 
