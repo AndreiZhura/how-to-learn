@@ -305,7 +305,7 @@ height: 637px;
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
-  height: 250px;
+  height: 210px;
   border: 1px solid  #f2f2f2;
 }
 
@@ -360,7 +360,8 @@ height: 637px;
   line-height:30px;
   font-size:18px;
   padding-left:0px;
-  border: 1px solid  #00f7ff;
+  text-decoration: none;
+  border: 1px solid  #ff0022;
 }
 
 
@@ -379,6 +380,7 @@ height: 637px;
   line-height:30px;
   font-size:18px;
   padding-left:0px;
+  text-decoration: none;
   border: 1px solid  #00f7ff;
 }
 
