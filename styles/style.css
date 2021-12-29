@@ -124,6 +124,7 @@ font-weight: bold;
 
 
 .digits{
+  position: relative;
   display: flex;
   flex-direction: column;
 }
@@ -195,7 +196,9 @@ height: 890px;
 background-image: url(/images/feynman.png);
 background-repeat: no-repeat;
 background-position: left bottom;
-border: 1px solid white;
+margin-top: 0px;
+border: 1px solid  #f2f2f2;
+
 }
 
 
@@ -219,9 +222,9 @@ margin-bottom: 70px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  width: 450px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 
@@ -286,20 +289,24 @@ height: 637px;
 }
 
 
+
 .footer{
   position: relative;
-  border :1px solid black;
   background-color: black;
+  border: 1px solid black;
 }
 
 
 .footer__columns{
   display:flex;
+  justify-content:space-between;
   width:90%;
   margin-top: 60px;
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
+  height: 250px;
+  border: 1px solid  #f2f2f2;
 }
 
 
@@ -307,6 +314,7 @@ height: 637px;
   position:relative;
   flex-basis:711px;
   margin-right:165px;
+  border: 1px solid  #ff0000;
 }
 
 .logo_place_footer{
@@ -314,6 +322,7 @@ height: 637px;
   height:35px;
   top:0;
   left:0;
+  border: 1px solid  #e6ff04;
 }
 
 
@@ -323,11 +332,12 @@ height: 637px;
   padding-top:18px;
   padding-bottom:18px;
   color:white;
+  border: 1px solid  #48da0e;
 }
 
 
 .footer__column_content_info{
-  margin-right:240px;
+  border: 1px solid  #00ffff;
 }
 
 
@@ -336,6 +346,10 @@ height: 637px;
   font-size:18px;
   font-weight:bold;
   color:rgba(255, 255, 255, 0.856);
+  border: 1px solid  #033dff;
+  margin-top:0px;
+  margin-bottom:20px;
+
 }
 
 
@@ -343,35 +357,37 @@ height: 637px;
   list-style-type:none;
   font-weight:normal;
   color:white;
-  text-decoration: none;
-  cursor: default;
   line-height:30px;
   font-size:18px;
+  padding-left:0px;
+  border: 1px solid  #00f7ff;
 }
 
 
 
 .footer__column_content_socical{
-  width: 100px;
-  left:110px;
-  display:flex;
-  flex-direction:column;
-  margin-right:240px;
+  width: 130px;
+  left:100px;
+  border: 1px solid  #f700ff;
 }
 
 
 .footer__column_link{
   list-style-type:none;
-  width:100px;
+  font-weight:normal;
   color:white;
-  text-decoration: none;
   line-height:30px;
+  font-size:18px;
+  padding-left:0px;
+  border: 1px solid  #00f7ff;
 }
 
 
-
- .footer__socical-icon{
+.footer__socical-icon{
   color:white;
   text-decoration: none;
-  margin: 1px;
+  width:16px;
+  height:16px;
+  margin-right:10px;
+  border: 1px solid  #ff0303;
  }
