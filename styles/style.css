@@ -306,7 +306,6 @@ height: 637px;
   margin-left: auto;
   margin-right: auto;
   height: 210px;
-  border: 1px solid  #f2f2f2;
 }
 
 
@@ -314,7 +313,6 @@ height: 637px;
   position:relative;
   flex-basis:711px;
   margin-right:165px;
-  border: 1px solid  #ff0000;
 }
 
 .logo_place_footer{
@@ -322,7 +320,6 @@ height: 637px;
   height:35px;
   top:0;
   left:0;
-  border: 1px solid  #e6ff04;
 }
 
 
@@ -332,13 +329,10 @@ height: 637px;
   padding-top:18px;
   padding-bottom:18px;
   color:white;
-  border: 1px solid  #48da0e;
 }
 
 
-.footer__column_content_info{
-  border: 1px solid  #00ffff;
-}
+
 
 
 .footer__column_heading{
@@ -346,10 +340,8 @@ height: 637px;
   font-size:18px;
   font-weight:bold;
   color:rgba(255, 255, 255, 0.856);
-  border: 1px solid  #033dff;
   margin-top:0px;
   margin-bottom:20px;
-
 }
 
 
@@ -361,7 +353,6 @@ height: 637px;
   font-size:18px;
   padding-left:0px;
   text-decoration: none;
-  border: 1px solid  #ff0022;
 }
 
 
@@ -369,7 +360,6 @@ height: 637px;
 .footer__column_content_socical{
   width: 130px;
   left:100px;
-  border: 1px solid  #f700ff;
 }
 
 
@@ -381,7 +371,6 @@ height: 637px;
   font-size:18px;
   padding-left:0px;
   text-decoration: none;
-  border: 1px solid  #00f7ff;
 }
 
 
@@ -391,5 +380,4 @@ height: 637px;
   width:16px;
   height:16px;
   margin-right:10px;
-  border: 1px solid  #ff0303;
  }
