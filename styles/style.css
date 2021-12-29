@@ -352,6 +352,7 @@ height: 637px;
 
 
 .footer__column_content_socical{
+  width: 100px;
   left:110px;
   display:flex;
   flex-direction:column;
@@ -364,13 +365,15 @@ height: 637px;
   width:100px;
   color:white;
   text-decoration: none;
-  padding: 5px;
+  /* padding: 5px; */
+  line-height:30px;
 }
 
 
 
  .footer__socical-icon{
-  font-size: 300;
   color:white;
+  border:1px solid red;
   text-decoration: none;
+  margin: 1px;
  }
