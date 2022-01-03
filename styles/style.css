@@ -172,9 +172,7 @@ background-repeat: no-repeat;
 background-position: left bottom;
 background-size:867px 637px ;
 position: relative;
-display: flex;
-flex-direction: column;
-align-items: center;
+border: 1px solid #f2f2f2 ;
 }
 .feynman__title{
 margin-top: 100px;
