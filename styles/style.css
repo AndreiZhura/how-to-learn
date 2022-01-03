@@ -26,7 +26,7 @@
   right: 0px;
   height: 568px;
   width: 568px;
-  background-color: blue;
+  background-color: #2f80ed;
   z-index: 0;
 
 }
@@ -41,7 +41,7 @@
 .logo{
   position: absolute;
 }
-.logo__place_header{
+.logo_place_header{
   margin-top: 30px;
   margin-left: 64px;
   height: 32px;
@@ -206,7 +206,7 @@ font-weight: bold;
 }
 /*-------------------------------------*/
 .kaufman{
-  background-color: black;
+  background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
 }
@@ -247,8 +247,8 @@ font-weight: bold;
 /*---------------*/
 .footer{
   position: relative;
-  background-color: black;
-  border: 1px solid black;
+  background-color:#1f1f1f;
+  border: 1px solid #1f1f1f;
 }
 
 
