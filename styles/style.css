@@ -10,65 +10,85 @@
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  position: relative;
-  background-color:  #f2f2f2;
-  display: flex;
+  background-color: #f2f2f2;
+  overflow: hidden;
   /* выше установили ограничения для секции */
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  position: absolute;
-  top: 64px;
-  right: 0px;
-  height: 568px;
-  width: 568px;
-  background-color: #2f80ed;
-  z-index: 0;
-
-}
-
-.logo{
-  position: absolute;
-}
-.logo_place_header{
-  margin-top: 30px;
-  margin-left: 64px;
-  height: 32px;
-  width: 183px;
-}
-.header__title{
+.logo {
   display: flex;
-  align-items: center;
-  justify-content: center;
+    z-index: 2;
+}
+
+.logo_place_header {
+  position: absolute;
+  width: 183px;
+  height: 32px;
+  top: 30px;
+  left: 64px;
+}
+
+.header__title {
+  display: flex;
+  align-self: center;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  margin-left: 64px;
   width: 730px;
+  margin-left: 64px;
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 2;
 }
-.header__subtitle{
+
+.header__subtitle {
+  align-self: flex-end;
   position: absolute;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   width: 388px;
-  left: 64px;
   bottom: 30px;
-
-
+  left: 64px;
+  margin: 0;
+  z-index: 2;
 }
-.header__main-illustration{
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__main-illustration {
   position: absolute;
+  display: flex;
+  align-self: flex-end;
   width: 765px;
   height: 608px;
-  bottom: 0px;
-  right: 0px;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.header__square-pic {
+  position: absolute;
+  display: flex;
+  align-self: flex-end;
+  width: 568px;
+  height: 568px;
+  background: #2f80ed;
+  right: 0;
+  top: 64px;
   z-index: 1;
 }
+
 /*------------------------------------------------*/
 .description{
   display: flex;
@@ -164,7 +184,7 @@ background-repeat: no-repeat;
 background-position: left bottom;
 background-size:867px 637px;
 position: relative;
-border: 1px solid #f2f2f2 ;
+border: 1px solid #f2f2f2;
 }
 .feynman__title{
 margin-top: 100px;
@@ -256,13 +276,15 @@ font-weight: bold;
 .footer__column_content_copyright{
   flex-basis: 711px;
   display: flex;
+  justify-content:space-between;
+  flex-direction:column;
 }
 
 
 
 .footer__author{
   color: white;
-  align-self:flex-end;
+  margin-bottom: 18px;
 }
 
 
@@ -289,9 +311,14 @@ font-weight: bold;
 
 
 .footer__socical-icon{
+
   color:white;
   text-decoration: none;
   width:16px;
   height:16px;
   margin-right:10px;
+ }
+ .logo_place_footer{
+   width: 183px;
+   height: 35px;
  }
