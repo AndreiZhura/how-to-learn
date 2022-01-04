@@ -244,86 +244,53 @@ font-weight: bold;
 }
 /*---------------*/
 .footer{
-  position: relative;
   background-color:#1f1f1f;
-  border: 1px solid #1f1f1f;
+  display: flex;
+  justify-content:center;
 }
 
 
 .footer__columns{
-  display:flex;
-  justify-content:space-between;
-  width:90%;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
   margin-top: 60px;
   margin-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 210px;
 }
 
 
 .footer__column_content_copyright{
-  position:relative;
-  flex-basis:711px;
-  margin-right:165px;
+  flex-basis: 711px;
+  display: flex;
 }
 
-.logo_place_footer{
-  width:183px;
-  height:35px;
-  top:0;
-  left:0;
-}
 
 
 .footer__author{
-  position:relative;
-  top:135px;
-  padding-top:18px;
-  padding-bottom:18px;
-  color:white;
+  color: white;
+  align-self:flex-end;
 }
-
-
-
 
 
 .footer__column_heading{
-  line-height:30px;
-  font-size:18px;
-  font-weight:bold;
-  color:rgba(255, 255, 255, 0.856);
-  margin-top:0px;
-  margin-bottom:20px;
+  color: #f2f2f2;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-left: 40px;
 }
+
 
 
 .footer__column_links{
-  list-style-type:none;
-  font-weight:normal;
-  color:white;
-  line-height:30px;
-  font-size:18px;
-  padding-left:0px;
   text-decoration: none;
+  list-style-type:none;
+  color:white;
 }
-
-
-
-.footer__column_content_socical{
-  width: 130px;
-  left:100px;
-}
-
 
 .footer__column_link{
-  list-style-type:none;
-  font-weight:normal;
-  color:white;
-  line-height:30px;
-  font-size:18px;
-  padding-left:0px;
   text-decoration: none;
+  list-style-type:none;
+  color:white;
 }
 
 
