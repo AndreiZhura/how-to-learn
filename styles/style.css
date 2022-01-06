@@ -85,7 +85,6 @@
   z-index: 1;
 }
 
-
 .description{
   display: flex;
   justify-content: center;
@@ -142,20 +141,20 @@
 }
 
 .section-title{
-width: 60%;
-margin-top: 100px;
-margin-bottom: 20px;
-display:flex;
-justify-content: center;
-line-height: 1.15;
-font-size: 60px;
-font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .section-subtitle{
-  width: 60%;
   display: flex;
   justify-content: center;
+  width: 60%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -170,14 +169,12 @@ font-weight: bold;
   margin-right: auto;
   width: 1100px;
   margin-bottom: 100px;
-  border: 1px solid red;
 }
 
 .table__cell{
   width: 250px;
   margin-bottom: 0px;
   margin-top: 60px;
-  border: 1px solid red;
 }
 
 .table__heading{
@@ -185,6 +182,7 @@ font-weight: bold;
   font-size: 24px;
   font-weight: bold;
   margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .table__text{
@@ -196,7 +194,7 @@ font-weight: bold;
 }
 
 .feynman{
-height: 890px;
+min-height: 890px;
 background-image: url(../images/feynman.png);
 background-color:  #f2f2f2;
 background-repeat: no-repeat;
@@ -209,15 +207,13 @@ align-items: center;
 }
 
 .feynman__title{
-margin-top: 100px;
-width: 648px;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 70px;
-line-height: 1.15;
-font-size: 120px;
-font-weight: bold;
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 70px;
 }
 
 .feynman__subtitle{
@@ -249,6 +245,7 @@ font-weight: bold;
   margin-right: auto;
   color: #f2f2f2;
   margin-top: 90px;
+  position: relative;
   z-index: 3;
 }
 
@@ -294,6 +291,7 @@ font-weight: bold;
   background-color:#1f1f1f;
   display: flex;
   justify-content:center;
+  min-height: 350px;
 }
 
 
@@ -315,26 +313,36 @@ font-weight: bold;
 
 .footer__author{
   color: white;
+  margin-top: 18px;
   margin-bottom: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__column-heading{
-  color: #f2f2f2;
-  margin-top: 0px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin-top: 0;
   margin-bottom: 20px;
-  padding-left: 40px;
 }
 
 .footer__column-links{
+  color: white;
+  padding: 0;
+  margin-top: 0;
   text-decoration: none;
-  list-style-type:none;
-  color:white;
+  list-style: none;
 }
 
 .footer__column-link{
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
   text-decoration: none;
-  list-style-type:none;
-  color:white;
+  font-weight: normal;
 }
 
  .logo_place_footer{
@@ -349,3 +357,4 @@ font-weight: bold;
   height:16px;
   padding-right: 10px;
  }
+
