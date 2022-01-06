@@ -169,12 +169,14 @@
   margin-right: auto;
   width: 1100px;
   margin-bottom: 100px;
+  border: 1px solid red;
 }
 
 .table__cell{
   width: 250px;
   margin-bottom: 0px;
   margin-top: 60px;
+  border: 1px solid red;
 }
 
 .table__heading{
@@ -183,6 +185,7 @@
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 20px;
+  border: 1px solid red;
 }
 
 .table__text{
@@ -191,6 +194,7 @@
   font-size: 18px;
   font-weight: normal;
   margin-bottom: 0px;
+  border: 1px solid red;
 }
 
 .feynman{
@@ -213,7 +217,7 @@ align-items: center;
   font-weight: bold;
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 70px;
+  margin-top: 70px;
 }
 
 .feynman__subtitle{
@@ -221,6 +225,7 @@ align-items: center;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  border: 1px solid red;
 }
 
 .feynman__link{
@@ -331,8 +336,11 @@ align-items: center;
 
 .footer__column-links{
   color: white;
-  padding: 0;
-  margin-top: 0;
+  padding-left: 0px;
+  margin: 0px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
   text-decoration: none;
   list-style: none;
 }
