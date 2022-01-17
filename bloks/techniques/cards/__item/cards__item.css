@@ -1,0 +1,8 @@
+.cards__item{
+  width: 250px;
+}
+.cards__item:last-child{
+ margin-right: 335px;
+}
+
+

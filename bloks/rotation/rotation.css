@@ -1,0 +1,10 @@
+.header__square-pic{
+     transition-property: transform;
+    transition-duration: 20s;
+    transition-timing-function: ease;
+  }
+
+.header__square-pic:hover{
+  transform: rotate(360deg);
+  animation-timing-function: initial;
+  }
