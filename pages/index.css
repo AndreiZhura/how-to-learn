@@ -65,6 +65,10 @@
 @import url(../bloks/kaufman/table__cell_theme_dark/tab;e__call_theme_dark.css);
 @import url(../bloks/kaufman/kaufman__triangle/kaufman__triangle.css);
 
+@import url(../bloks/resources/resources.css);
+@import url(../bloks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../bloks/resources/__logo-zone/resources__logo/resources__logo.css);
+
 @import url(../bloks/footer/footer.css);
 @import url(../bloks/footer/__columns/footer__columns.css);
 @import url(../bloks/footer/__columns/_content_copyright/footer__column_content_copyright.css);
