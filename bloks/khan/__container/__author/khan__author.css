@@ -1,8 +1,8 @@
 .khan__author{
-  margin-top: 0px;
+  margin-top: 105px;
   margin-bottom: 0px;
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
-  border:1px solid red;
+  position: relative;
 }
